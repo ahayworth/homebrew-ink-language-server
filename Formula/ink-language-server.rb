@@ -12,7 +12,7 @@ class InkLanguageServer < Formula
   depends_on "node"
   depends_on "inklecate"
 
-  head "https://github.com/ahayworth/ink-language-server.git", :branch => "ahayworth-support-vim-ale"
+  head "https://github.com/ephread/ink-language-server.git"
 
   def install
     package_json = JSON.parse(File.read("package.json"))
